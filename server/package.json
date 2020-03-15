@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:client":"cd../client && ng serve",
-    "start:server":"node server.js",
-    "dev":"concurrently -k --kill-others-on-fail \"npm run start:client\"  \"npm run start:server\""
+    "start:client": "cd../client && ng serve",
+    "start:server": "node server.js",
+    "dev": "concurrently -k --kill-others-on-fail \"npm run start:client\"  \"npm run start:server\""
   },
   "keywords": [],
   "author": "",
