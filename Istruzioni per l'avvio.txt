@@ -1,0 +1,17 @@
+Per eseguire il seguente progetto bisogna spostarsi nella cartella del file server.js perchè cosi si puo Per eseguire il progetto bisogna aver installato
+node,mongodb.
+
+Come IDE ho utilizzato VS Code.
+
+Per compilare il codice bisogna spostarsi nella cartella del file server.js.
+Nel seguente caso:
+
+C:\Users\Tommaso\Desktop\MyAddressBook\my-address-book>server
+
+Poi eseguire il seguente comando
+
+npm run dev
+
+Viene compilato e si apre la pagina web del client http://localhost:4200/
+Il db Mongo si trova in http://localhost:5000/phoneNumber.
+
