@@ -1,13 +1,20 @@
 <div align="center">
     <table class="table" width="50%" cellpadding="10" cellspacing="30" table-border="1" rules="row">
         <tr>
+            <th>#</th>
             <th>Nome</th>
             <th>Numero</th>
+            <th>Opzioni</th>
         </tr>
     
-        <tr *ngFor="let cont of contact">
-            <td>{{cont.nome}}</td>
-            <td>{{cont.numero}}</td>
+        <tr *ngFor="let cont of contact;let i = index">
+            <td>{{i+1}}</td>
+            <td><input type="text" class="form-control" value={{cont.nome}} required readonly id="name"></td>
+            <td><input type="text" class="form-control" value={{cont.numero}} required readonly id="numero"></td>
+            <td>
+                <button type="button"(click)="removeUser(i)">Delete</button>
+                <button type="button" (click)="updateUser(i)>Edit</button>
+            </td>
         </tr>
     </table>
 </div>

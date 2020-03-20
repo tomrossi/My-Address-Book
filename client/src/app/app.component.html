@@ -2,15 +2,13 @@
 <div class="container">
     <div class="row">
         <div class="col-xs-22 col-xs-offset-12">
-            <app-finder (user)="getUser($event)"></app-finder>
-            <br>
-            <app-button></app-button>
+            <app-input id="finder" (user)="getUser($event)"></app-input>
             <br>
             <br>
             <br>
-            <app-contact-list [contact]="utenti"></app-contact-list>
+            <br>
+            <app-contact-list [contact]="utenti" (user)="removeUser($event)" (userUpdate)="updateUser($event)"></app-contact-list>
         </div>
     </div>
 </div>
-
 

@@ -1,0 +1,25 @@
+#finder {
+  background-color: blue;
+  text-align: cden;
+}
+
+
+button {  
+  text-rendering: auto;
+  color: blue;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  cursor: default;
+  background-color: buttonface;
+  box-sizing: content-box;
+  margin: 0em;
+  font: 400 13.3333px status-bar;
+  padding: 10px 15px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonface;
+  border-image: initial;
+}

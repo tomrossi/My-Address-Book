@@ -13,3 +13,9 @@ table {
   tr:nth-child(even) {
     background-color: #dddddd;
   }
+
+
+
+  input{
+    background-color:transparent;
+  }
